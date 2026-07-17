@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "bundleVersion": "55c1b63c225f1833706438fcf7231decdec80fc0367ef084bb7d641546b5c14c",
+  "generatedAt": "2026-07-17T14:14:01.041Z",
+  "artifacts": {
+    "deposit_128.wasm": {
+      "path": "deposit_128_js/deposit_128.wasm",
+      "size": 2947804,
+      "sha256": "ffc7acdcfd15362f4a463dfec8553680f4a91b385fdcdb4e626324a1345f3a54"
+    },
+    "deposit_128.zkey": {
+      "path": "deposit_128_final.zkey",
+      "size": 81623756,
+      "sha256": "70e9e477eea27f98a0d888c5f2c5a54b37321e4ff232a5c6a96a7c4cee0e30c8"
+    },
+    "deposit_16.wasm": {
+      "path": "deposit_16_js/deposit_16.wasm",
+      "size": 2398286,
+      "sha256": "46f7b2015fb22f71f66dcabed6f959b63dba1e5d6376db5e97da64bff13ed4e8"
+    },
+    "deposit_16.zkey": {
+      "path": "deposit_16_final.zkey",
+      "size": 18899788,
+      "sha256": "8f59fb9b84ede1848a11c9f20729e8b3de3aeddaf5720c27412d4421186f974b"
+    },
+    "deposit_32.wasm": {
+      "path": "deposit_32_js/deposit_32.wasm",
+      "size": 2476808,
+      "sha256": "55f1b755a4b5595b2f00b46dd9c570cec1b8d79ef497567aea1879cd0d4fe4e1"
+    },
+    "deposit_32.zkey": {
+      "path": "deposit_32_final.zkey",
+      "size": 26062796,
+      "sha256": "869a015cbdc204634b40a1e77f65e9c3ed3cf701aa59624f650cfb9bf8753681"
+    },
+    "deposit_64.wasm": {
+      "path": "deposit_64_js/deposit_64.wasm",
+      "size": 2633819,
+      "sha256": "a2b5f62483dad5e6bdc8591f7d2e36a242d45df443714229567c38a035086389"
+    },
+    "deposit_64.zkey": {
+      "path": "deposit_64_final.zkey",
+      "size": 44583116,
+      "sha256": "ab8e84eceee70757b7fdc25eb073c60ba3e97b76654e26988178c7ebca8f62aa"
+    },
+    "deposit_8.wasm": {
+      "path": "deposit_8_js/deposit_8.wasm",
+      "size": 2358988,
+      "sha256": "e1f916520029f625e70ed83007b827dad272efb111184ce51310d91c78efbf4b"
+    },
+    "deposit_8.zkey": {
+      "path": "deposit_8_final.zkey",
+      "size": 13221132,
+      "sha256": "e3cf8fee73db2e8ecebfc1577e9042ec96c2804ad53dd48ed68a39ac58747295"
+    },
+    "refund_128.wasm": {
+      "path": "refund_128_js/refund_128.wasm",
+      "size": 3605540,
+      "sha256": "9e32a5b302efae8e647a4fa0705a55abe7b0eae1f5649b2095c0a84750d86330"
+    },
+    "refund_128.zkey": {
+      "path": "refund_128_final.zkey",
+      "size": 138221008,
+      "sha256": "cf820e8ff3973916d619ef5bbe94c1c8eb760d9050e5e86389db2e2ebfbba905"
+    },
+    "refund_16.wasm": {
+      "path": "refund_16_js/refund_16.wasm",
+      "size": 2638031,
+      "sha256": "6f87bd4fa426a9b3f59aa55a7ea4da8629639eb8ec06c80c42425412ec623ea1"
+    },
+    "refund_16.zkey": {
+      "path": "refund_16_final.zkey",
+      "size": 20752272,
+      "sha256": "58ebe42f0ea355e678da0bb8f61d7327d242d7e80f71470c108f1127572c7d9d"
+    },
+    "refund_32.wasm": {
+      "path": "refund_32_js/refund_32.wasm",
+      "size": 2776251,
+      "sha256": "b19ef692b74adc2dc026c74a40c73913f158d02de24d37911f9a770e45092b1e"
+    },
+    "refund_32.zkey": {
+      "path": "refund_32_final.zkey",
+      "size": 37533520,
+      "sha256": "58df19d9071296a961a6f87ee5e6596432d28f87070b3183b250746e33478818"
+    },
+    "refund_64.wasm": {
+      "path": "refund_64_js/refund_64.wasm",
+      "size": 3052699,
+      "sha256": "d25eaa34aedc4f677c54d5f89fadb008f3572b47f9880ca511ac5b28491d479c"
+    },
+    "refund_64.zkey": {
+      "path": "refund_64_final.zkey",
+      "size": 71096016,
+      "sha256": "3588a65eadde5d61378a089554a1691c28267c69624f41a4c8c4faea1f7e1b37"
+    },
+    "refund_8.wasm": {
+      "path": "refund_8_js/refund_8.wasm",
+      "size": 2568837,
+      "sha256": "9d3860d29764679e546de04451f09d2bc71720fff805c6c87ca1ccf5f749523c"
+    },
+    "refund_8.zkey": {
+      "path": "refund_8_final.zkey",
+      "size": 12361648,
+      "sha256": "44e3b849974c2253dc25e0d5790b25936469a99863c7ffb5f3161ba8b2e8abbb"
+    },
+    "withdraw_128.wasm": {
+      "path": "withdraw_128_js/withdraw_128.wasm",
+      "size": 2523059,
+      "sha256": "ff589084e2ca3d1b53d9047ddf867385f02e3d4770711a1113bd6f8ecc524c21"
+    },
+    "withdraw_128.zkey": {
+      "path": "withdraw_128_final.zkey",
+      "size": 8175044,
+      "sha256": "e73da8b09533d2e6620c2fd68b99aac1c207d64e0ed2b42bf80b4798796d60b0"
+    },
+    "withdraw_16.wasm": {
+      "path": "withdraw_16_js/withdraw_16.wasm",
+      "size": 2516344,
+      "sha256": "565006b359607bb99418ce92151fb4435b8c7cad1439f829c10dd8ed19d1e2d0"
+    },
+    "withdraw_16.zkey": {
+      "path": "withdraw_16_final.zkey",
+      "size": 6560968,
+      "sha256": "936b677f679525ebdeb3a8f6b24874fadc6671bb56e5fc72a25757374dedd8aa"
+    },
+    "withdraw_32.wasm": {
+      "path": "withdraw_32_js/withdraw_32.wasm",
+      "size": 2518457,
+      "sha256": "ccd5eab1755b74dc679740603ba10a28a8acf9b8fc9048fec2199589e4ff8dfd"
+    },
+    "withdraw_32.zkey": {
+      "path": "withdraw_32_final.zkey",
+      "size": 6749468,
+      "sha256": "34456520a0cd426f308064053175efac43fae9c940c18a454deee3a34cc56703"
+    },
+    "withdraw_64.wasm": {
+      "path": "withdraw_64_js/withdraw_64.wasm",
+      "size": 2520541,
+      "sha256": "3b47c2917ff2ca2d4204d48aa0e3387e04ab4cde2ce8205e4752ee803895de07"
+    },
+    "withdraw_64.zkey": {
+      "path": "withdraw_64_final.zkey",
+      "size": 6937968,
+      "sha256": "2976157b03dd33e47a2ca3bb38b1aadaa0a93973b1b69e9656d9bc65e5596ff5"
+    },
+    "withdraw_8.wasm": {
+      "path": "withdraw_8_js/withdraw_8.wasm",
+      "size": 2514106,
+      "sha256": "aa6fb882735e8bdf32edb821715e7857b6a0a3f18f567e7ac4b4205908e47afe"
+    },
+    "withdraw_8.zkey": {
+      "path": "withdraw_8_final.zkey",
+      "size": 6372468,
+      "sha256": "ab876436bb664a666a205a7a4f565f56df84bbccde3dbd098150f3af74886435"
+    }
+  }
+}

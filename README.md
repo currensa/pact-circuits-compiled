@@ -141,6 +141,50 @@ can re-derive and check the deployed verifier bytecode.
 
 ---
 
+## Generate the artifact manifest (maintainer)
+
+The application uses `manifest.json` to identify the exact WASM and proving-key
+files served from this repository. Generate it here—not in the source-circuit
+build directory—so its hashes describe the final artifacts after copying,
+contributions, or beacon finalization.
+
+Run the generator manually from the repository root:
+
+```bash
+cd /path/to/gravarc-compiled
+node scripts/generate-manifest.mjs
+```
+
+The generator:
+
+- requires all deposit, withdraw, and refund artifacts for tiers 8, 16, 32, 64,
+  and 128;
+- hashes 15 WASM files and 15 zkey files with SHA-256;
+- records each artifact's relative path and byte size;
+- derives a stable `bundleVersion` from the complete artifact set; and
+- writes `manifest.json` atomically, so readers never see a partial manifest.
+
+Successful output looks like:
+
+```text
+Generated manifest.json for 30 artifacts
+Bundle version: <64-character SHA-256 value>
+```
+
+Run the generator again whenever a served WASM or zkey changes, including after:
+
+1. copying newly compiled artifacts from the source repository;
+2. accepting a phase-2 contribution that updates zkeys;
+3. promoting beacon-finalized proving keys; or
+4. manually replacing an artifact.
+
+Generate the manifest only after all artifact updates are complete, then commit
+`manifest.json` together with the corresponding artifacts. If the files have not
+changed, `bundleVersion` remains the same; `generatedAt` records when the manifest
+was refreshed.
+
+---
+
 ## Repository layout
 
 ```
@@ -153,6 +197,9 @@ scripts/contribute.sh       add one contribution
 scripts/verify.sh           verify the chain against r1cs + ptau
 scripts/finalize.sh         maintainer: beacon + export verifiers
 scripts/lib.sh              shared definitions
+scripts/generate-manifest.mjs
+                            hash served artifacts and write manifest.json
+manifest.json               generated artifact metadata consumed by the application
 ```
 
 > **Note on size.** zkeys are large (the biggest is ~80 MB) and each contribution
